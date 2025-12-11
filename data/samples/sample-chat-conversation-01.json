@@ -1,0 +1,6 @@
+{
+  "messages": [
+    {"role": "user", "content": "What is AI?"},
+    {"role": "assistant", "content": "AI means artificial intelligence."}
+  ]
+}

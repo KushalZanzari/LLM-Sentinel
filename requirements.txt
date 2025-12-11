@@ -1,0 +1,11 @@
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+pydantic
+fastapi
+uvicorn
+python-dotenv
+tiktoken
+redis
+streamlit

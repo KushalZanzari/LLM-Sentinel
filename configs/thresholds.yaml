@@ -1,0 +1,5 @@
+relevance_min: 0.65
+completeness_min: 0.60
+factuality_min: 0.55
+
+price_per_1k_tokens: 0.002

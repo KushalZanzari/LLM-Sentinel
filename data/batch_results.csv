@@ -1,0 +1,2 @@
+chat_file,context_file,relevance,completeness,factuality,verdict,latency,total_tokens
+sample-chat-conversation-01.json,sample_context_vectors-01.json,0.8798527373070298,0.7468080520629883,0.8208639196796064,PASS,5.0,9

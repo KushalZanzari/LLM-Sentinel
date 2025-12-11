@@ -1,0 +1,6 @@
+{
+  "contexts": [
+    {"id": "ctx1", "text": "AI is the simulation of human intelligence."},
+    {"id": "ctx2", "text": "Machine learning is a subset of AI."}
+  ]
+}
