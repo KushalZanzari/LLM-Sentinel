@@ -18,7 +18,7 @@ This project simulates how professional AI evaluation teams validate chatbot res
 
 # 📖 1. Project Overview
 
-LLM‑Eval is designed to answer a fundamental question:
+
 
 ### **“How do we measure whether an AI assistant responds correctly, safely, and efficiently?”**
 
