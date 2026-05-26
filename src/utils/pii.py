@@ -16,7 +16,9 @@ def detect_pii(text: str):
         "emails": re.findall(EMAIL_PATTERN, text),
         "phones": re.findall(PHONE_PATTERN, text),
         "ids": re.findall(ID_PATTERN, text),
-        "names": re.findall(NAME_PATTERN, text)
+        # Names via Regex are too aggressive and catch normal words. Disable for now.
+        # "names": re.findall(NAME_PATTERN, text)
+        "names": []
     }
 
 
@@ -27,5 +29,6 @@ def redact_pii(text: str):
     text = re.sub(EMAIL_PATTERN, "[REDACTED_EMAIL]", text)
     text = re.sub(PHONE_PATTERN, "[REDACTED_PHONE]", text)
     text = re.sub(ID_PATTERN, "[REDACTED_ID]", text)
-    text = re.sub(NAME_PATTERN, "[REDACTED_NAME]", text)
+    # Removing aggressive name redaction which destroys sentence semantics
+    # text = re.sub(NAME_PATTERN, "[REDACTED_NAME]", text)
     return text
